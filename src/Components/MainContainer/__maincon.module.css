@@ -1,0 +1,243 @@
+.maincontainer {
+    flex-basis: 83%;
+    background-color: #0A0A0A;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    margin: 10px 10px 10px 0px;
+    position: relative;
+    background: linear-gradient(rgb(32, 32, 32), rgb(9, 9, 9));
+        overflow-x: hidden;
+        overflow-y: scroll;
+    height: 87.5vh;
+}
+/* .maincontainer:hover{
+    overflow-x: hidden;
+    overflow-y: scroll;
+} */
+
+.maincontainer nav {
+    background-color: #101010;
+    height: 65px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.maincontainer nav > aside:first-child button {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    font-size: 1.2em;
+    background-color: #0A0A0A;
+    color: #A0A0A0;
+    margin: 0px 5px;
+}
+
+.maincontainer nav > aside:last-child > button:first-child {
+    border: none;
+    background-color: transparent;
+    color: #A7A7A7;
+    font-size: 0.875em;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.maincontainer nav > aside:last-child > button:last-child {
+    border-radius: 500px;
+    padding: 15px 25px;
+    font-size: 0.875em;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.focusBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    align-items: center;
+    color: white;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.focusBlock a {
+    text-decoration: none;
+    /* color: #A7A7A7; */
+    font-weight: 700;
+    font-size: 0.875em;
+    color: white;
+}
+
+.focusContainer {
+    /* background: linear-gradient(rgb(32, 32, 32), rgb(9, 9, 9)); */
+}
+
+.focusContainer main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.focusBox {
+    width: 17%;
+    height: 300px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    background: linear-gradient(black, rgb(25, 25, 25));
+    position: relative;
+    cursor: pointer;
+}
+
+.focusBox img {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.focusBox h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 5px 0;  
+}
+
+.focusBox p {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #929292;
+    margin: 5px 0;
+}
+
+.maincontainer .focusBox button {
+    padding: 13px 18px;
+    font-size: 20px;
+    background-color: #1DC258;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    right: 20px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.focusBox:hover {
+    background: linear-gradient(#1A1A1A, #282828 )
+}
+
+.focusBox:hover button {
+    visibility: visible;
+}
+
+.mainFooter{
+    margin-top: 100px;
+    height: 490px;
+    /* border: 2px solid red; */
+}
+
+.subFooter{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 0.1px solid rgba(255,255,255,0.1);
+   margin: 0 auto;
+   width: 95%;
+}
+
+.subFooter1{
+    height: 325px;
+    flex-basis: 60%;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+.subFooter2{
+    flex-basis: 40%;
+    /* border: 2px solid yellow; */
+}
+
+.subFooterContent1{
+    /* border: 2px solid pink; */
+    width: 214px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+.subFooterContent2{
+    /* border: 2px solid pink; */
+    width: 214px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+.subFooterContent3{
+    /* border: 2px solid pink; */
+    width: 214px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+.subFooterItems{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 20px;
+}
+.subFooterItems p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.subFooterItems a{
+    text-decoration: none;
+    margin: 8px 0px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    color: #a7a7a7;
+}
+
+.subFooter2{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.subFooter2 a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.subFooter2 a:hover{
+    background-color: #999;
+}
+
+.subFooter2 div{
+    padding-right: 16px;
+}
+
+.subFooter3{
+    padding: 40px 52px;
+}
+
+.subFooter3 p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #a7a7a7;
+}
